@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+<rect width="120" height="120" rx="10" fill="#E4EFE7"/>
+<g fill="#6E9C7D"><rect x="54" y="20" width="12" height="14" rx="3"/><path d="M50 38 h20 v8 l6 12 v36 a6 6 0 0 1 -6 6 h-20 a6 6 0 0 1 -6 -6 v-36 l6 -12 z"/></g>
+<text x="60" y="108" text-anchor="middle" font-family="sans-serif" font-size="9"
+ fill="#1F2A44" opacity="0.65">MINIBAR</text>
+</svg>
