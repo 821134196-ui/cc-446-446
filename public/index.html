@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>迷你吧补货与离店结算</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">◈</span>
+      <div>
+        <div class="brand-title">迷你吧平台</div>
+        <div class="brand-sub">补货 · 盘点 · 离店结算</div>
+      </div>
+    </div>
+    <nav id="nav">
+      <button data-view="floorboard" class="nav-item active">楼层房态</button>
+      <button data-view="count" class="nav-item">房内盘点</button>
+      <button data-view="cart" class="nav-item">补货车</button>
+      <button data-view="review" class="nav-item">消费复核 <span id="navReviewBadge" class="badge hidden"></span></button>
+      <button data-view="expiry" class="nav-item">效期报损</button>
+      <button data-view="checkout" class="nav-item">退房结算</button>
+    </nav>
+    <div class="sidebar-foot">
+      <label class="staff-label">当前身份（演示权限）</label>
+      <select id="staffSelect"></select>
+      <div id="staffScope" class="staff-scope"></div>
+      <button id="scanBtn" class="ghost-btn">立即扫描提醒</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar no-print">
+      <h1 id="viewTitle">楼层房态</h1>
+      <div id="notifArea" class="notifs"></div>
+    </header>
+
+    <section id="content" class="content"></section>
+  </main>
+</div>
+
+<div id="modalRoot"></div>
+<div id="toast" class="toast"></div>
+<script src="/app.js"></script>
+</body>
+</html>

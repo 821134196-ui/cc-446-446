@@ -1,0 +1,14 @@
+{
+  "name": "minibar-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "酒店迷你吧补货与离店结算平台（匿名演示数据）",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --experimental-sqlite src/server.js",
+    "seed": "node --experimental-sqlite src/seed.js",
+    "test": "node --experimental-sqlite --test test/*.test.js"
+  }
+}

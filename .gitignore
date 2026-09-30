@@ -13,3 +13,8 @@ build/
 轨迹/
 录屏/
 视频/
+
+# 运行时数据与上传照片（由 seed / 用户运行生成）
+data/
+photos/*
+!photos/.gitkeep
